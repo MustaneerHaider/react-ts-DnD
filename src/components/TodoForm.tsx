@@ -6,9 +6,7 @@ import { AppDispatch } from '../store/store';
 import { addTodo } from '../store/todoSlice';
 import { TodoStatus } from '../types/types';
 
-interface TodoFormProps {}
-
-const TodoForm: FC<TodoFormProps> = ({}) => {
+const TodoForm: FC<{}> = () => {
 	const [input, setInput] = useState<string>('');
 	const dispatch = useDispatch<AppDispatch>();
 
