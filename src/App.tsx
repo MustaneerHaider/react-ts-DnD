@@ -10,7 +10,7 @@ import TodoList from './components/TodoList';
 
 interface AppProps {}
 
-const App: FC<AppProps> = ({}) => {
+const App: FC<AppProps> = () => {
 	const completedTodos = useSelector(selectCompletedTodos);
 	const uncompletedTodos = useSelector(selectUncompletedTodos);
 
