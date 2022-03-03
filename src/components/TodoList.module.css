@@ -1,0 +1,39 @@
+.todos {
+	margin: 1rem 0;
+	border: 1px solid #22c55e;
+}
+
+.todos header {
+	height: 3.5rem;
+	background-color: #22c55e;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.todos header h2 {
+	color: white;
+	font-size: 24px;
+}
+
+.todos ul {
+	list-style: none;
+	padding: 1rem;
+	margin: 0;
+}
+
+.uncompletedTodos {
+	border: 1px solid #ef4444;
+}
+
+.uncompletedTodos header {
+	background-color: #ef4444;
+}
+
+.droppableCompleted {
+	background-color: #bbf7d0;
+}
+
+.droppableUncompleted {
+	background-color: #fecaca;
+}
